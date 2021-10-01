@@ -1,0 +1,87 @@
+/* Task-1 */
+/* .container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.block{
+    padding: 10px 30px;
+    background-color: grey;   
+    transition: all 0.5s ease-in-out;
+    color: white;
+}
+h1{
+    margin: 0px;
+}
+.block:hover{
+    padding: 20px 50px;
+    background-color: green;
+    border: 2px solid red;
+    transform: rotate(360deg);
+} */
+/* Task-1 End */
+
+
+/* Task-2 Start */
+/* .main {
+  width: 100px;
+  background-color: green;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid gray;
+  position: relative;
+  animation-name: Asif;
+  animation-timing-function: ease-in-out;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+
+}
+
+@keyframes Asif{
+0%{background-color:green; left: 0px; top: 0px;transform: rotate(0deg);}
+25%{background-color: aqua;left: 0px; transform: rotate(30deg);}
+50%{background-color: aqua;left: 600px; transform: rotate(0deg);}
+75%{background-color: aqua;left: 600px;transform: rotate(0deg);}
+100%{background-color: green;left: 0px; transform: rotate(360deg);}
+} */
+/* Task-2 End */
+
+.my-col{
+    border: 1px solid #c9c9c9;
+    padding: 30px;
+}
+
+p{
+    color: #696969;
+    line-height: 20px;
+}
+
+span{
+    color: #696969;
+    font-size: 14px;
+}
+
+h2{
+    padding-bottom: 50px;
+}
+
+.my-col a{
+text-decoration: none;
+color: #808080;
+font-size: 16px;
+position: relative;
+}
+.my-col a:hover{
+    color: #808080;
+}
+
+.my-col a::after{
+content: "";
+height: 2px;
+width: 62px;
+background-color: black;
+position: absolute;
+top: 22px;
+left: 0px;
+}
